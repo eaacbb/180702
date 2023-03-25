@@ -1,0 +1,158 @@
+html, body {
+  margin: 0;
+  padding: 0;
+   /* background-color: black; */
+}
+
+.forme {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.forme div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+#arche {
+  top: 215px;
+  left: 600px;
+  width: 200px;
+  height: 230px;
+  background-image: url(../imgs/formes/arche_2_BL.png);
+}
+
+#arche div {
+  background-image: url(../imgs/formes/arche.png);
+}
+
+#arche2 {
+  top: 215px;
+  left: 600px;
+  width: 200px;
+  height: 230px;
+  background-image: url(../imgs/formes/arche_1_BL.png);
+}
+
+#arche2 div {
+  background-image: url(../imgs/formes/arche2.png);
+}
+
+#cube_1 {
+  top: 215px;
+  left: 600px;
+  width: 200px;
+  height: 230px;
+  background-image: url(../imgs/formes/cube_BL.png);
+}
+
+#cube_1 div {
+  background-image: url(../imgs/formes/cube_1.png);
+}
+
+
+#cube_2 {
+  top: 215px;
+  left: 600px;
+  width: 200px;
+  height: 230px;
+  background-image: url(../imgs/formes/cube_BL.png);
+}
+
+#cube_2 div {
+  background-image: url(../imgs/formes/cube_2.png);
+}
+
+#cube_3 {
+  top: 215px;
+  left: 600px;
+  width: 200px;
+  height: 230px;
+  background-image: url(../imgs/formes/cube_BL.png);
+}
+
+#cube_3 div {
+  background-image: url(../imgs/formes/cube_2.png);
+}
+
+#cube_4 {
+  top: 215px;
+  left: 600px;
+  width: 200px;
+  height: 230px;
+  background-image: url(../imgs/formes/cube_BL.png);
+}
+
+#cube_4 div {
+  background-image: url(../imgs/formes/cube_2.png);
+}
+
+#cylindre_1 {
+  top: 215px;
+  left: 600px;
+  width: 200px;
+  height: 230px;
+  background-image: url(../imgs/formes/cylindre_1_BL.png);
+}
+
+#cylindre_1 div {
+  background-image: url(../imgs/formes/cylindre_1.png);
+}
+
+#cylindre_2 {
+  top: 215px;
+  left: 600px;
+  width: 200px;
+  height: 230px;
+  background-image: url(../imgs/formes/cylindre_2_BL.png);
+}
+
+#cylindre_2 div {
+  background-image: url(../imgs/formes/cylindre_2.png);
+}
+
+#rectangle {
+  top: 215px;
+  left: 600px;
+  width: 200px;
+  height: 230px;
+  background-image: url(../imgs/formes/rectangle_BL.png);
+}
+
+#rectangle2 div {
+  background-image: url(../imgs/formes/rectangle.png);
+}
+
+#rectangle2 {
+  top: 215px;
+  left: 600px;
+  width: 200px;
+  height: 230px;
+  background-image: url(../imgs/formes/rectangle_BL.png);
+}
+
+#rectangle div {
+  background-image: url(../imgs/formes/rectangle.png);
+}
+
+#triangle {
+  top: 215px;
+  left: 600px;
+  width: 200px;
+  height: 230px;
+  background-image: url(../imgs/formes/trinagle_BL.png);
+}
+
+#triangle div {
+  background-image: url(../imgs/formes/triangle.png);
+}
