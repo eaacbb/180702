@@ -48,5 +48,5 @@ function draw() {
 }
 
 function touchStarted() {
-	getAudioContext().resume();
-  }
+  getAudioContext().resume();
+}
