@@ -19,6 +19,7 @@ function setup() {
 	if (mode == "microphone") {
 		mic = new p5.AudioIn();
 		mic.start();
+		getAudioContext().resume();
 		fft = new p5.FFT(lissage, band);
 		fft.setInput(mic);
 	} else if (mode == "mp3") {
