@@ -19,7 +19,6 @@ function setup() {
 	if (mode == "microphone") {
 		mic = new p5.AudioIn();
 		mic.start();
-		getAudioContext().resume();
 		fft = new p5.FFT(lissage, band);
 		fft.setInput(mic);
 	} else if (mode == "mp3") {
@@ -46,3 +45,7 @@ function draw() {
 	range_3 = map(range_3, 0, 255, 0, 1);
 	range_4 = map(range_4, 0, 255, 0, 1);
 }
+
+function touchStarted() {
+	getAudioContext().resume();
+  }
